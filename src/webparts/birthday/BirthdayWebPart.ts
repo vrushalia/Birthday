@@ -86,7 +86,7 @@ export default class BirthdayWebPart extends BaseClientSideWebPart<IBirthdayWebP
       
 
   }
-
+  //this is to fetch the data from list
   private _renderList(items: ISPList[]): void {
     let html: string = '';    
     let teststr: string = this.context.pageContext.web.absoluteUrl.substring(0,this.context.pageContext.web.absoluteUrl.search("/sites"));
